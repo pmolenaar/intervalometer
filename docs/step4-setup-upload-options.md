@@ -35,40 +35,52 @@ Prior to using Dropbox you need to perform some authentication steps to allow th
 <img src="https://user-images.githubusercontent.com/11004787/64750062-24f09e80-d55b-11e9-95f3-cba0c8ed7ead.jpg" width="80%">
  </p>
 
-5. Choose the radio buttons for "Dropbox API", "App Folder", give it a name and then click Create App:
+5. Choose the radio buttons for "Scoped access", "App Folder", give it a name and then click Create App:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11004787/64750082-3174f700-d55b-11e9-98aa-fcb0a58dca5c.jpg" width="80%">
+<img src="https://user-images.githubusercontent.com/11004787/98453269-75897900-21ab-11eb-97d3-6c77c826d5b8.png" width="80%">
  </p>
 
 6. Under "OAuth 2", click "Generate":
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11004787/64750093-39349b80-d55b-11e9-96be-70bbda39375e.jpg" width="80%">
+<img src="https://user-images.githubusercontent.com/11004787/98453327-03fdfa80-21ac-11eb-8fd5-22d5230f2c2c.png" width="80%">
  </p>
 
-7. Copy the token that this generates:
+7. Set the Access token exiration to "No expiration" and copy the token to a safe place. This token is what we'll enter into the intvlm8r:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11004787/64750099-3fc31300-d55b-11e9-97ce-ac36105b3165.jpg" width="80%">
+<img src="https://user-images.githubusercontent.com/11004787/98453340-24c65000-21ac-11eb-94bf-441416d73d16.png" width="80%">
  </p>
 
 8. If you're using Windows 10 and signed into that Dropbox account, you should get a popup to let you know the app has been created, and see that it now appears in your Dropbox folders list:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11004787/64750110-46ea2100-d55b-11e9-89e4-6ffe30ce95cc.jpg" width="40%">
+<img src="https://user-images.githubusercontent.com/11004787/98453354-44f60f00-21ac-11eb-94f2-e2464581a233.png" width="40%">
 </p>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11004787/64750119-4d789880-d55b-11e9-9909-a20f83eab524.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/11004787/98453389-90a8b880-21ac-11eb-9d51-184529e313c1.png" width="50%">
  </p>
 
-9. You're done. Now login to the intvlm8r, choose Dropbox for the Transfer Method on the /Transfer page, paste the token into this field and click Apply.
+9. Switch to the Permissions tab and add checks against "files.metadata.write" and "files.content.write":
 
-NB: This process was last confirmed accurate on September 12th, 2019.
+#### TODO.
+ 
+10. Optional step: Switch to the Branding tab and customise the icons that will display in your PC:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11004787/64750110-46ea2100-d55b-11e9-89e4-6ffe30ce95cc.jpg" width="40%">
+<img src="https://user-images.githubusercontent.com/11004787/98453488-cbf7b700-21ad-11eb-973c-fae1497146ce.png" width="40%">
 </p>
+ 
+11. At the bottom of the page, click Submit to confirm your changes:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11004787/98453503-f34e8400-21ad-11eb-8a32-c44d50b3d62f.png" width="60%">
+</p>
+ 
+12. You're done. Now login to the intvlm8r, choose Dropbox for the Transfer Method on the /Transfer page, paste the token into this field and click Apply.
+
+NB: This process was last confirmed accurate on November 8th, 2020.
 
 <hr />
 
